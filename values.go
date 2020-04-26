@@ -12,6 +12,7 @@ func main() {
 	fmt.Println(true || false)
 	fmt.Println(!true)
 
+	/* Static & Dynamic declaration */
 	var x float64 = 20.0
 
 	y := 42
@@ -20,6 +21,7 @@ func main() {
 	fmt.Printf("x is of type %T\n", x)
 	fmt.Printf("y is of type %T\n", y)
 
+	/* Mixed Variable Declaration in Go */
 	var a, b, c = 3, 4, "foo4"
 
 	fmt.Println(a)
